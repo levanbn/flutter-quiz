@@ -42,7 +42,7 @@ class ResultsScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly!',
+              'შენ უპასუხე $numCorrectQuestions კითხვას $numTotalQuestions-დან სწორად!',
               textAlign: TextAlign.center,
               style: GoogleFonts.lato(
                 color: const Color.fromARGB(255, 237, 223, 252),
@@ -71,7 +71,7 @@ class ResultsScreen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'Restart Quiz!',
+                        'ქვიზის თავიდან დაწყება',
                         style: TextStyle(color: Colors.white),
                       ),
                     ],

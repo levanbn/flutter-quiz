@@ -18,11 +18,11 @@ class StartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 80),
           Text(
-            'Learn Flutter The Fun Way!',
+            'ფიზიოლოგიის ქვიზი',
             style: GoogleFonts.lato(
-              color:const  Color.fromARGB(255, 237, 223, 252),
+              color: const Color.fromARGB(255, 237, 223, 252),
               fontSize: 24,
-            ), 
+            ),
           ),
           const SizedBox(height: 50),
           OutlinedButton.icon(
@@ -31,7 +31,7 @@ class StartScreen extends StatelessWidget {
               foregroundColor: Colors.white,
             ),
             icon: const Icon(Icons.arrow_right_alt),
-            label: const Text('Start Quiz'),
+            label: const Text('ქვიზის დაწყება'),
           ),
         ],
       ),

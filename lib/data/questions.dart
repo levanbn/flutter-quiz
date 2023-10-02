@@ -2,63 +2,144 @@ import '../models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'რისთვის გამოიყენება ინტრაკრანიალური კანულა?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
+      'თავის ტვინის აქტივობისთვის',
+      'ზურგის ტვინის აქტივობისთვის',
+      'არც ერთია სწორი',
     ],
   ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
+  QuizQuestion('რომელია უკეთესი კვლევა სისხდენებისთვის?', [
+    'CT',
+    'MRT',
+    'fMRT',
   ]),
   QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
+    'PET კვლევა გამოიყენება?',
     [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'ტვინის ფუნქციის სანახავად',
+      'ცხოველებისთვის',
+      'ადამიანის მოძრაობის სანახავად',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'მაგნიტოენცეფალოგრაფია რა არის?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'კვლევა',
+      'დიზაინი',
+      'ქირურგიული გზა',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'ელექტროდების იმპლანტაცია მაგალითია?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'ნეირონილი აქტივობის კვლევის',
+      'გენეტიკური კვლევის',
+      'ნეიროქიმიური კვლევის',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'რამდენი მეთოდი არსებობს თავის ტვინის დაზიანების?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      '2',
+      '3',
+      '5',
     ],
   ),
   QuizQuestion(
-    'rasaca gascem shenia rac ara?',
+    'DTI განმარტება არის?',
     [
-      'shenia da shenia',
-      'dakargulia',
-      'gayidulia',
-      'gauqmebulia',
+      'დიფიზიური ტენზორული კვლევა',
+      'სამედიცინო ტოპოგრატიული ინტერესი',
+      'ორივე მათგანია სწორი',
+    ],
+  ),
+  QuizQuestion(
+    'DTI ზე რას ვხედავთ?',
+    [
+      'მიელინიზირებულ აქსონს',
+      'დენდრიტს',
+      'სისხლდენას',
+    ],
+  ),
+  QuizQuestion(
+    'რომელი კვლევაა უფრო სანდომიანი?',
+    [
+      'გააჩნია ვითარებას',
+      'CT',
+      'MRT',
+    ],
+  ),
+  QuizQuestion(
+    'რითი განსხვავდება MRI და CT?',
+    [
+      'CT უფრო ზედაპირულია ვიდრე MRI',
+      'ორივე ერთი და იგივეა',
+      'MRI უფრო მარტივია და იაფიანი',
+    ],
+  ),
+  QuizQuestion(
+    'ანატომიურად რომელ ნეკნთაშუა სივრცეში მოისმინება აორტის სარქველი?',
+    [
+      '2 ნეკნთაშუა პარასტერნალ',
+      '5 ნეკნთაშუა ლავიწქვეშა',
+      '5 ნეკნთაშუა პარასტერნალ',
+    ],
+  ),
+  QuizQuestion(
+    'რომელი სარკველია მიტრალური?',
+    [
+      'აორტის',
+      '3 კარიანი',
+      '2 კარიანი',
+    ],
+  ),
+  QuizQuestion(
+    'ყველაზე ძლიერი გულის ნაწილი არის?',
+    [
+      'მარცხენა პარკუჭი',
+      'მარცხენა წინაგული',
+      'მარჯვენა წინაგული',
+    ],
+  ),
+  QuizQuestion(
+    'წინაგულათა სივრცეს რომელიც უზრუნველყოფს გულის გაფართოებას დიდი სისხლის ნაკადისას ეწოდება?',
+    [
+      'ყური',
+      'ძგიდე',
+      'თავი',
+    ],
+  ),
+  QuizQuestion(
+    'პეპტიდის გამოკვლევა რითი ხდება?',
+    [
+      'იმუნოციტოქიმიური კვლევით',
+      'იმუნოფლორესცენტული კვლევით',
+      'არცერთით',
+    ],
+  ),
+  QuizQuestion(
+    'რომელი არ მიეკუთვნება გენეტიკურ მეთიდებს?',
+    [
+      'ტვინის დაზიანებები',
+      'მიზნონტივი მუტაციები',
+      'ტყუპების კვლევა',
+    ],
+  ),
+  QuizQuestion(
+    'მიზნობრივი მუტაცია მიეკუთვნება?',
+    [
+      'გენეტიკურ კვლევას',
+      'მიზნობრივ კვლევას',
+      'ნეიროქიმიურ კვლევას',
+    ],
+  ),
+  QuizQuestion(
+    'რას ბლოკავს ოლიგონუკლეოტიდები?',
+    [
+      'კოდირებული ცილების გამომუშავებას',
+      'ამინომჟავების გამომუშავებას ',
+      'ცხიმების გამომუშავებას',
     ],
   ),
 ];
